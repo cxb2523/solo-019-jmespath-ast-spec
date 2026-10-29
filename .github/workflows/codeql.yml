@@ -24,7 +24,7 @@ jobs:
       uses: "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3"
 
     - name: "Run CodeQL init"
-      uses: "github/codeql-action/init@4e94bd11f71e507f7f87df81788dff88d1dacbfb"
+      uses: "github/codeql-action/init@9b3254085494b55a0f7c4c2b3d2d52cc712ce370"
       with:
         config-file: "./.github/codeql.yml"
         languages: "python"
